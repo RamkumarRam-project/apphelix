@@ -8,14 +8,14 @@
                  <div className="row">
                     <div className="col-md-6">
                          <h4>Quick Links</h4>
-                         <ul>
-                            <li>Home</li>
-                            <li>About</li>
-                            <li>Services</li>
-                            <li>Careers</li>
-                            <li>Blogs</li>
-                            <li>Contact Us</li>
-                         </ul>
+                       
+                            <p>Home</p>
+                            <p>About</p>
+                            <p>Services</p>
+                            <p>Careers</p>
+                            <p>Blogs</p>
+                            <p>Contact Us</p>
+                        
                     </div>
                     <div className="col-md-6">
                         <h4>Contact</h4><br/>

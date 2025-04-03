@@ -21,14 +21,14 @@ function Home() {
                     <h6 className="fs-4">We approach every engagement as a long-term investment in your success, combining technical excellence with business vision. Our commitment to understand your business drives our engineering focus.</h6>
                 </div>
                 <div className="col-md-6">
-                      <div className="col-12-md">
+                      <div className="col-12-md dna-sec">
                       <div className="content ">
                            <i class="fa-regular fa-image text-primary fs-2"></i><br/>
                            <h4>Strategic Engineering DNA</h4>
                            <h6>Technical excellence meets business insight</h6>
                         </div> 
                       </div><br/>
-                      <div className="col-12-md">
+                      <div className="col-12-md dna-sec">
                         <div className="content ">
                         <i class="fa-solid fa-rocket text-primary fs-2"></i><br/>
                            <h4>Gen AI-native thinking</h4>
@@ -68,7 +68,7 @@ function Home() {
           </div>
                 
                 <div className="container">
-                  <div className="row">
+                  <div className="row ">
                         <div className="col-md-6 end-sec-col">
                            <h6 >Your Future-Ready Ally</h6>
                            <h1>High-impact engineering, without the premium</h1>
