@@ -4,9 +4,11 @@
     return(
         <>
            
-              <div className="container footer-top-sec">
-                 <div className="row">
-                    <div className="col-md-6">
+              <div className="footer-class" >
+               
+                 <div  className="row footer-top-sec ">
+                  
+                    <div className="col-md-6" >
                          <h4>Quick Links</h4>
                        
                             <p>Home</p>
@@ -38,16 +40,17 @@
                          <div className="icon"><i class="fa-brands fa-instagram"></i></div>
                          <div className="icon"><i class="fa-brands fa-facebook"></i></div>
 
-                         </div>
+                         </div><br/><br/><br/>
 
-                    </div>
-                 </div><br/><br/><br/>
-                 <hr/>
-                 <div className="end-footer ">
+                    </div><hr/>
+                    <div className="end-footer ">
                     <a href="#">Terms and Conditions</a>
                     <p>© 2025 AppHelix Technologies. All Rights Reserved.</p>
                     <a href="#">Privacy Policy</a>
                  </div>
+                 </div>
+                 
+                
               </div>
         </>
     )

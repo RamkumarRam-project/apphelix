@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import NavigationBar from "./navarbar";
 import Footer from "./footer";
+import Middle from "./middle";
 
 
 function Home() {
@@ -10,7 +11,7 @@ function Home() {
           <div className="container-body">
            <div className="content-sec">
              <div className="p-5">
-                 <h1 style={{fontSize:"55px"}}>Consultative Engineering Drives Impact</h1><br/>
+                 <h1 className="top-title" style={{fontSize:"55px"}}>Consultative Engineering Drives Impact</h1><br/>
                   <h6 className="fs-4">We don’t just execute; we consult, strategize, and engineer results.</h6><br/>
                  <button className="btn btn-primary rounded-5  fw-bold">See What We To</button>
                  <i class="fa-solid fa-arrow-right btn-round bg-primary "></i>
@@ -67,10 +68,10 @@ function Home() {
            </div>
           </div>
                 
-                <div className="container">
+                <div className="container cont-end-sec">
                   <div className="row ">
-                        <div className="col-md-6 end-sec-col">
-                           <h6 >Your Future-Ready Ally</h6>
+                        <div className="col-md-6 end-sec-col ">
+                           <h6 className="middle-sec">Your Future-Ready Ally</h6>
                            <h1>High-impact engineering, without the premium</h1>
                            <h2 className="text-secondary">Your success demands a partner who moves at your speed.</h2>
                         </div>
@@ -79,24 +80,24 @@ function Home() {
                               <div className="col-md-6">
                               <div className="content-end ">
                               <i class="fa-solid fa-handshake text-primary fs-2"></i><br/><br/>
-                                  <h4>Consulting-led, Flexible Engagement</h4>
+                                  <h5>Consulting-led, Flexible Engagement</h5>
                                   <p>Processes that understand and align with your vision to accelerate your launch and maintain adaptability.</p>
                         </div>
-                        <div className="content-end ">
+                        <div className="content-end "><br/>
                         <i class="fa-solid fa-microchip text-primary fs-2"></i><br/><br/>
-                                  <h4>Strategic Long-Term Vision</h4>
+                                  <h5>Strategic Long-Term Vision</h5><br/>
                                   <p>Solutions that evolve alongside your business goals and market demands.</p>
                         </div>
                               </div>
-                              <div className="col-md-6">
+                              <div style={{marginTop:"15px"}} className="col-md-6">
                               <div className="content-end ">
                               <i class="fa-solid fa-diamond text-primary fs-2"></i><br/><br/>
-                                 <h4>Future-Ready Technology</h4>
+                                 <h5>Future-Ready Technology</h5>
                                  <h6>Built-in Gen AI and DevSecOps ensure sustainable, scalable solutions.</h6>
                             </div>
-                            <div className="content-end ">
+                            <div className="content-end "><br/>
                             <i class="fa-solid fa-bezier-curve text-primary fs-2"></i><br/><br/>
-                                  <h4 >True Technology Partnership</h4>
+                                  <h5>True Technology Partnership</h5><br/>
                                   <p>Strategic guidance that transforms challenges into competitive advantages.</p>
                         </div>
                               </div>
@@ -105,6 +106,8 @@ function Home() {
                         </div>
                      </div>
                  </div>
+
+                 <Middle/>
 
                  <Footer/>
    </>

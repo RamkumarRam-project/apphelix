@@ -8,7 +8,7 @@ const NavigationBar = () => {
    
   return (
    <>
-               <nav className="navbar navbar-expand-lg nav-class text-light mt-5" >
+               <nav className="navbar navbar-expand-lg nav-class  mt-5" >
     <div className="container">
       <a className="navbar-brand " href="#">
        <span className="text-white nav-font">
@@ -16,7 +16,7 @@ const NavigationBar = () => {
         <span className="text-white fs-4 imp-class">impactful Engineering</span>
       </a>
       <button
-        className="navbar-toggler"
+        className="navbar-toggler text-white"
         type="button"
         onClick={() => setIsOpen(!isOpen)}
       >
